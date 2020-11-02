@@ -1,14 +1,14 @@
 
 import './App.css';
 import './style.css';
-
+import img from './imageInSrc.jpg';
 function App() {
   return (
     <div>
   <div style={{border: 'solid 1px black', maxWidth: '100vw'}}>
     <h1 className="title red">Your name here</h1>
     <br />
-    <img src="./imageInSrc.jpg" />
+    <img src={img} alt='srcImage' />
     <br />
     <img src="/imageInPublic.jpg" />
   </div>
